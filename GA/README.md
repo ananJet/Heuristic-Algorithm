@@ -29,11 +29,18 @@
 
 >(3) Linear Ranking Selection(线性排序)
 >- 种群中的个体首先根据适应度的值进行排序，然后给所有个体赋予一个序号，最好的个体为N, 被选中的概率为Pmax, 最差的个体序号为1, 被选中的概率为Pmin，于是其他的在他们中间的个体的概率可以由公式计算  
+>- <img src="https://latex.codecogs.com/gif.latex?P_{i}=P_{min}&plus;(P_{max}-P_{min})\frac{i-1}{N-1}" title="P_{i}=P_{min}+(P_{max}-P_{min})\frac{i-1}{N-1}" />
 
 >(4) Exponential Ranking Selection(指数排序)
 >- 类似于线性排序选择，将个体排名后，指数排序在确定每个个体的选择概率的时候使用了指数形式的表达式, 其中c为底数  
+>- <img src="https://latex.codecogs.com/gif.latex?P_{i}=\frac{c^{N-i}}{\sum_{j=1}^{N}c^{N-i}}" title="P_{i}=\frac{c^{N-i}}{\sum_{j=1}^{N}c^{N-i}}" />
 
 ## 5 Genetic operators 1: Crossover  
+>- Partial-Mapped Crossover (PMX)  
+>- Order Crossover (OX)  
+>- Position-based Crossover (PBX)  
+>- Cycle Crossover (CX)  
+>- Subtour Exchange Crossover (SEC)  
 | First Header  | Second Header |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
