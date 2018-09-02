@@ -3,7 +3,9 @@
 ## 1 Introduction
 - Simulates the natural selection of Darwin's biological evolution theory and the biological evolutionary process of the genetic mechanism
 - Key word: gene, population, individual, generation, fitness
-- Genetic operators: selection, crossover, mutation
+- Genetic operators: selection, crossover, mutation  
+![image](https://github.com/ananJet/Heuristic-Algorithm/blob/master/GA/flow.jpg)  
+
 
 ## 2 Encoding
 <table><tr><th>Name</th><th>Example</th><th>Note</th></tr><tr><td>Binary</td><td>0 1 0 1 1 0<br></td><td>Represents a decimal number(26)</td></tr><tr><td>Gray</td><td>0 1 1 1 0 1</td><td>Represents a decimal number(26) and only one bit of code is different between the coded values of two consecutive integers</td></tr><tr><td>Float</td><td>2.3 4.5 2.4 1.2 1.6 1.7</td><td>Suitable for dealing with high precision and complex constraints</td></tr><tr><td>Char</td><td>A B C D E F G</td><td>A sequence with no numerical meaning</td></tr></table>
@@ -34,4 +36,5 @@
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
+
 
