@@ -32,7 +32,7 @@
 >- <img src="https://latex.codecogs.com/gif.latex?P_{i}=P_{min}&plus;(P_{max}-P_{min})\frac{i-1}{N-1}" title="P_{i}=P_{min}+(P_{max}-P_{min})\frac{i-1}{N-1}" />
 
 >(4) Exponential Ranking Selection(指数排序)
->- 类似于线性排序选择，将个体排名后，指数排序在确定每个个体的选择概率的时候使用了指数形式的表达式, 其中c为底数  
+>- 类似于线性排序选择，将个体排名后，指数排序在确定每个个体的选择概率的时候使用了指数形式的表达式, 其中c为底数,0＜c＜1  
 >- <img src="https://latex.codecogs.com/gif.latex?P_{i}=\frac{c^{N-i}}{\sum_{j=1}^{N}c^{N-i}}" title="P_{i}=\frac{c^{N-i}}{\sum_{j=1}^{N}c^{N-i}}" />
 
 ## 5 Genetic operators 1: Crossover  
@@ -41,6 +41,7 @@
 >- Position-based Crossover (PBX)  
 >- Cycle Crossover (CX)  
 >- Subtour Exchange Crossover (SEC)  
+
 | First Header  | Second Header |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
