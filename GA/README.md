@@ -35,7 +35,7 @@
 >- 类似于线性排序选择，将个体排名后，指数排序在确定每个个体的选择概率的时候使用了指数形式的表达式, 其中c为底数,0＜c＜1  
 >- <img src="https://latex.codecogs.com/gif.latex?P_{i}=\frac{c^{N-i}}{\sum_{j=1}^{N}c^{N-i}}" title="P_{i}=\frac{c^{N-i}}{\sum_{j=1}^{N}c^{N-i}}" />
 
-## 5 Genetic operators 1: Crossover  
+## 5 Genetic operators 2: Crossover  
 >- Partial-Mapped Crossover (PMX)  
 >- Order Crossover (OX)  
 >- Position-based Crossover (PBX)  
@@ -47,4 +47,7 @@
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 
+## 6 Genetic operators 3: Mutation  
+>- 互换
+>- 变值
 
