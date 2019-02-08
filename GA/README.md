@@ -15,10 +15,10 @@
 
 ## 4 Genetic operators 1: Selection  
 >(1) Proportionate Roulette Wheel Selection(轮盘赌)
->- 将种群中个体的适应度值叠加，得到总适应度值
->- 每个个体的适应度值除以总适应度值得到个体被选择的概率
->- 计算个体的累积概率以构造一个轮盘
->- 轮盘选择：产生一个[0,1]区间内的随机数，若该随机数小于或等于个体的累积概率且大于个体1的累积概率，选择个体进入子代种群  
+>- Sum the fitness values of individuals to obtain the total fitness value;
+>- The probability that each individual is selected is obtained by the fitness value of the individual divided by the total fitness value of the population;
+>- In order to build a roulette wheel, calculate the cumulative probability of each individual;
+>- Roulette selection, generate a random number within the interval of [0, 1], if the number is less than or equal to the cumulative probability of individual 1 and larger than the cumulative probability of individual 2, individual 1 should be chosen to enter the offspring population;
 >- <img src="https://latex.codecogs.com/gif.latex?P_{_{select}}(a_{i})=\frac{f(a_{i})}{\sum_{i=1}^{n}f(a_{i})}" title="P_{_{select}}(a_{i})=\frac{f(a_{i})}{\sum_{i=1}^{n}f(a_{i})}" />
 
 >(2) Tournament Selection(锦标赛)
