@@ -28,11 +28,14 @@
 ![image](https://github.com/ananJet/Heuristic-Algorithm/blob/master/GA/tournament%20selection.jpg)
 
 >(3) Linear Ranking Selection(线性排序)
->- 种群中的个体首先根据适应度的值进行排序，然后给所有个体赋予一个序号，最好的个体为N, 被选中的概率为Pmax, 最差的个体序号为1, 被选中的概率为Pmin，于是其他的在他们中间的个体的概率可以由公式计算  
+>- Firstly, the individuals in the population are sorted according to the fitness value, and then all individuals are assigned an ordinal number. 
+>- The individual with the maximum fitness value is N, the probability of being selected is Pmax. 
+>- The individual with the minimum fitness value is 1, and the probability of being selected is Pmin.
+>- So the probability of other individuals among them can be calculated by the formula
 >- <img src="https://latex.codecogs.com/gif.latex?P_{i}=P_{min}&plus;(P_{max}-P_{min})\frac{i-1}{N-1}" title="P_{i}=P_{min}+(P_{max}-P_{min})\frac{i-1}{N-1}" />
 
 >(4) Exponential Ranking Selection(指数排序)
->- 类似于线性排序选择，将个体排名后，指数排序在确定每个个体的选择概率的时候使用了指数形式的表达式, 其中c为底数,0＜c＜1  
+>- Similar to linear ranking selection, exponential ranking selection calculates the probability of being selected by the formula in exponential form, which c is the base(0<c<1)
 >- <img src="https://latex.codecogs.com/gif.latex?P_{i}=\frac{c^{N-i}}{\sum_{j=1}^{N}c^{N-i}}" title="P_{i}=\frac{c^{N-i}}{\sum_{j=1}^{N}c^{N-i}}" />
 
 ## 5 Genetic operators 2: Crossover  
