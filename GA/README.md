@@ -22,9 +22,9 @@
 >- <img src="https://latex.codecogs.com/gif.latex?P_{_{select}}(a_{i})=\frac{f(a_{i})}{\sum_{i=1}^{n}f(a_{i})}" title="P_{_{select}}(a_{i})=\frac{f(a_{i})}{\sum_{i=1}^{n}f(a_{i})}" />
 
 >(2) Tournament Selection(锦标赛)
->- 确定每次选择的个体数量(本文以占种群中个体个数的百分比表示)
->- 从种群中随机选择个个体(每个个体入选概率相同) 构成组，根据每个个体的适应度值，选择其中适应度值最好的个体进入子代种群
->- 重复步骤(2)次，得到的个体构成新一代种群
+>- Determine the number of individuals selected each time(or the percentage in the population)
+>- Individuals are selected randomly from the population to form a group, the individual with the maximum fitness value will be selected to enter the offspring population
+>- Acquire individuals to form the new population by repeating the step 2
 ![image](https://github.com/ananJet/Heuristic-Algorithm/blob/master/GA/tournament%20selection.jpg)
 
 >(3) Linear Ranking Selection(线性排序)
