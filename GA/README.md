@@ -45,12 +45,7 @@
 >- Cycle Crossover (CX)  
 >- Subtour Exchange Crossover (SEC)  
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
 ## 6 Genetic operators 3: Mutation  
->- 互换
->- 变值
+>- Exchange：When chromosomes adopt symbolic coding, the mutation effect can be achieved by exchanging values at different locations
+>- Change：When chromosomes adopt float coding or binary coding and so on, the mutation effect can be achieved by change values at one location
 
